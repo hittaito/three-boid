@@ -1,0 +1,22 @@
+{
+  "name": "three-boid",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/three": "^0.179.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-glsl": "^1.5.1"
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0",
+    "three": "^0.179.1"
+  }
+}
